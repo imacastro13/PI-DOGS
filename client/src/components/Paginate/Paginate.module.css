@@ -1,0 +1,22 @@
+.container{
+    flex-direction: column;
+}
+
+.button{
+    padding: 1px;
+}
+
+.boton{
+    padding: 5px;
+    background: rgb(0, 183, 255);
+    border-radius: 5px;
+    color: black;
+    font-size: 12px;
+    font-weight: 790;
+    border-color: transparent;
+}
+
+.boton:hover{
+    background: rgb(0, 132, 255);
+    transform: scale(1.1);
+}

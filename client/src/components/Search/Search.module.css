@@ -1,0 +1,39 @@
+.nav {
+  margin: 30px 30px 55px 30px;
+  display: inline-block;
+  position: center;
+  height: 20px;
+  padding: 0;
+}
+
+.input {
+  padding: 2px 2px;
+  margin-top: 5px;
+  font-size: 20px;
+  border: none;
+  font: 1.1vw/1.6  'Palatino Linotype';
+  border-radius: 10px;
+  text-align: center;
+}
+
+.input:active {
+  border: #ddd;
+  color: white;
+}
+
+.btn {
+  float: right;
+  padding: 9px 10px;
+  margin-top: 5px;
+  margin-right: 16px;
+  background:  #00a2ff;
+  font-size: 160x;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn:hover {    
+  background-color: rgb(145, 142, 139);;
+  transform: scale(1.1);
+}

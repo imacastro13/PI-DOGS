@@ -1,0 +1,47 @@
+.btn {
+    font-family: 'Palatino Linotype';
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius:15px;
+    background: #00a2ff;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+}
+  
+.btn:hover {
+    background-color:#006ba8;
+    cursor: pointer;
+    color:#ffffff;
+}
+
+.div {
+    margin-right: 10%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.div h1 {
+    font-size:90px;
+    margin-bottom: 35px; 
+    margin-top: 10px;
+    font: 'Palatino Linotype';
+    user-select:none;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-size: contain;
+    background-image: url("./LandingPage.png");
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
